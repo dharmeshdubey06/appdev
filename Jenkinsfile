@@ -14,7 +14,7 @@ pipeline
 		}
 		stage('Perform Application Testing'){
 			steps{
-				bat 'C:\Users\dharm\AppData\Roaming\npm\newman run C:\Users\dharm\Documents\Mule-Soft\newman\Mule-Soft-Project-apdevflight.postman_collection.json --disable-unicode'
+				bat 'C:\\Users\\dharm\\AppData\\Roaming\\npm\\newman run C:\\Users\\dharm\\Documents\\Mule-Soft\\newman\\Mule-Soft-Project-apdevflight.postman_collection.json --disable-unicode'
 			}
 		}
 	}	
