@@ -132,9 +132,7 @@ payload map ( payload01 , indexOfPayload01 ) -> {
 						<ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
-{
-	"message": "No American Airline Flight to " ++ vars.code as String
-}]]></ee:set-payload>
+[]]]></ee:set-payload>
 					</ee:message>
 				</ee:transform>
 				<set-variable value="200" doc:name="httpStatus" doc:id="767041d2-1964-4d59-b069-ec797d08828c" variableName="httpStatus" />
